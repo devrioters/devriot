@@ -41,10 +41,12 @@ export const GlobalStyles = createGlobalStyle`
     html, body {
         margin: 0;
         box-sizing: border-box;
+        font-size: 62.5%;
         padding: 0;
     }
 
-    body {
-        font-size: 62.5%;
+    div.wrapper {
+        max-width: 1366px;
+        margin: 0 auto;
     }
 ;`;
