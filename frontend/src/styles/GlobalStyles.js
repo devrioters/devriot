@@ -14,20 +14,21 @@ export const GlobalStyles = createGlobalStyle`
         --gradient-green: linear-gradient(248.85deg, #06352C -1.77%, #10252D 104.39%);
 
         //* Tipography
-        --font-header: 400 20px/24px Louis George Cafe, sans-serif;
-        --font-button-1: 700 24px/30px Montserrat, sans-serif;
-        --font-title: 600 56px/68px Montserrat, sans-serif;
-        --font-subtitle: 500 32px/38px Cabin, sans-serif;
-        --font-card-title: 600 29px/35px Montserrat, sans-serif;
-        --font-card-subtitle: 700 18px/22px Cabin, sans-serif;
-        --font-card-button: 400 20px/24px Montserrat, sans-serif;
-        --font-username: 700 24px/auto VALORANT, sans-serif;
-        --font-lat-menu: 400 22px/auto Louis George Cafe, sans-serif;
-        --font-category-title: 700 60px/auto VALORANT, sans-serif;
-        --font-language-title: 700 52px/auto VALORANT, sans-serif;
+        --font-header: 400 1.8rem/2.2rem Louis George Cafe, sans-serif;
+        --font-button-1: 700 2.2rem/2.8rem Montserrat, sans-serif;
+        --font-button-header: 700 1.6rem Montserrat, sans-serif;
+        --font-title: 600 5.4rem/6.6rem Montserrat, sans-serif;
+        --font-subtitle: 500 3rem/3.6rem Cabin, sans-serif;
+        --font-card-title: 600 2.7rem/3.3rem Montserrat, sans-serif;
+        --font-card-subtitle: 700 1.6rem/2rem Cabin, sans-serif;
+        --font-card-button: 400 1.8rem/2.2rem Montserrat, sans-serif;
+        --font-username: 700 2.2rem/auto VALORANT, sans-serif;
+        --font-lat-menu: 400 2rem/auto Louis George Cafe, sans-serif;
+        --font-category-title: 700 5.8rem/auto VALORANT, sans-serif;
+        --font-language-title: 700 5.2rem/auto VALORANT, sans-serif;
 
         //* Buttons
-        --button-header-pdg: 9px 0;
+        --button-header-pdg: .9rem 4.5rem;
         --button-header-color: var(--color-green);
         --button-banner-pdg: 16px 0;
         --button-banner-color: var(--color-green);
@@ -41,10 +42,17 @@ export const GlobalStyles = createGlobalStyle`
     html, body {
         margin: 0;
         box-sizing: border-box;
+        font-size: 62.5%;
         padding: 0;
     }
 
-    body {
-        font-size: 62.5%;
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    div.wrapper {
+        max-width: 1240px;
+        margin: 0 auto;
     }
 ;`;
