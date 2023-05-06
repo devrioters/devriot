@@ -17,6 +17,13 @@ const Container = styled.div`
 	cursor: pointer;
 `;
 
+const SplitDiv = styled.div`
+	width: 1px;
+	height: 1px;
+	padding: 2rem 0;
+	background-color: white;
+`;
+
 const navItems = [
 	{
 		text: "Fórum",
@@ -48,6 +55,7 @@ export default function NavBar() {
 			{navItems.map((i, key) => (
 				<NavItem text={i.text} img={i.icon} key={key} />
 			))}
+			<SplitDiv />
 			<Button className="header" onClick={handleClick}>
 				LOGIN
 			</Button>
