@@ -13,8 +13,8 @@ const Container = styled.div`
 	justify-content: space-between;
 	width: 80%;
 
-	margin:0 20px 0 0;
-	cursor:pointer;
+	margin: 0 20px 0 0;
+	cursor: pointer;
 `;
 
 const navItems = [
@@ -40,13 +40,17 @@ const navItems = [
 	},
 ];
 
+const handleClick = () => {};
+
 export default function NavBar() {
 	return (
 		<Container>
 			{navItems.map((i, key) => (
 				<NavItem text={i.text} img={i.icon} key={key} />
 			))}
-			<Button className="header">LOGIN</Button>
+			<Button className="header" onClick={handleClick}>
+				LOGIN
+			</Button>
 		</Container>
 	);
 }
