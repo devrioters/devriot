@@ -12,6 +12,9 @@ const Container = styled.div`
 	align-items: center;
 	justify-content: space-between;
 	width: 80%;
+
+	margin:0 20px 0 0;
+	cursor:pointer;
 `;
 
 const navItems = [

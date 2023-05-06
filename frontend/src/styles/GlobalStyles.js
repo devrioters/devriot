@@ -28,7 +28,7 @@ export const GlobalStyles = createGlobalStyle`
         --font-language-title: 700 5.2rem/auto VALORANT, sans-serif;
 
         //* Buttons
-        --button-header-pdg: 1rem 3.5rem;
+        --button-header-pdg: .9rem 4.5rem;
         --button-header-color: var(--color-green);
         --button-banner-pdg: 16px 0;
         --button-banner-color: var(--color-green);
