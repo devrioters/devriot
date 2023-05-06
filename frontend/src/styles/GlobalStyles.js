@@ -16,6 +16,7 @@ export const GlobalStyles = createGlobalStyle`
         //* Tipography
         --font-header: 400 1.8rem/2.2rem Louis George Cafe, sans-serif;
         --font-button-1: 700 2.2rem/2.8rem Montserrat, sans-serif;
+        --font-button-header: 700 1.6rem Montserrat, sans-serif;
         --font-title: 600 5.4rem/6.6rem Montserrat, sans-serif;
         --font-subtitle: 500 3rem/3.6rem Cabin, sans-serif;
         --font-card-title: 600 2.7rem/3.3rem Montserrat, sans-serif;
@@ -27,7 +28,7 @@ export const GlobalStyles = createGlobalStyle`
         --font-language-title: 700 5.2rem/auto VALORANT, sans-serif;
 
         //* Buttons
-        --button-header-pdg: 9px 0;
+        --button-header-pdg: 1rem 3.5rem;
         --button-header-color: var(--color-green);
         --button-banner-pdg: 16px 0;
         --button-banner-color: var(--color-green);

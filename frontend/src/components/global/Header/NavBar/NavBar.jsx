@@ -5,11 +5,13 @@ import icon2 from "../../../../assets/Header/video.svg";
 import icon3 from "../../../../assets/Header/email.svg";
 import icon4 from "../../../../assets/Header/school.svg";
 import icon5 from "../../../../assets/Header/work.svg";
+import Button from "./../../Button";
 
 const Container = styled.div`
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+	width: 80%;
 `;
 
 const navItems = [
@@ -41,6 +43,7 @@ export default function NavBar() {
 			{navItems.map((i, key) => (
 				<NavItem text={i.text} img={i.icon} key={key} />
 			))}
+			<Button className="header">LOGIN</Button>
 		</Container>
 	);
 }

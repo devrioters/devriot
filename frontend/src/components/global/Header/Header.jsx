@@ -11,10 +11,6 @@ const Wrapper = styled.div`
 	display: flex;
 	justify-content: space-between;
 
-	> div {
-		width: 50%;
-	}
-
 	img {
 		width: 30%;
 	}
