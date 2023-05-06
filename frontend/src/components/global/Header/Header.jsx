@@ -2,7 +2,7 @@ import styled from "styled-components";
 import NavBar from "./NavBar/NavBar";
 import logo from "../../../assets/logo.png";
 
-const Container = styled.div`
+const Container = styled.header`
 	background-color: var(--color-blue-1);
 	padding: 2.25rem 0;
 `;

@@ -7,7 +7,7 @@ import icon4 from "../../../../assets/Header/school.svg";
 import icon5 from "../../../../assets/Header/work.svg";
 import Button from "./../../Button";
 
-const Container = styled.div`
+const Container = styled.nav`
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
