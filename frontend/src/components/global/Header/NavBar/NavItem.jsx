@@ -3,15 +3,16 @@ import PropTypes from "prop-types";
 
 const Container = styled.div`
 	display: flex;
+	align-items: center;
 `;
 
 const Icon = styled.img`
-	max-height: 2.5rem;
+	max-height: 2rem;
 `;
 
 const Text = styled.span`
 	font: var(--font-header);
-	margin-left: 1.4rem;
+	margin-left: 1.2rem;
 `;
 
 export default function NavItem(props) {

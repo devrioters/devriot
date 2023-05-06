@@ -45,8 +45,13 @@ export const GlobalStyles = createGlobalStyle`
         padding: 0;
     }
 
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
     div.wrapper {
-        max-width: 1366px;
+        max-width: 1240px;
         margin: 0 auto;
     }
 ;`;
