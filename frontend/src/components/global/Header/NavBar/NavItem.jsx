@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import PropTypes from "prop-types";
 
 const Container = styled.div`
 	display: flex;
@@ -21,3 +22,8 @@ export default function NavItem(props) {
 		</Container>
 	);
 }
+
+NavItem.propTypes = {
+	img: PropTypes.string.isRequired,
+	text: PropTypes.string.isRequired,
+};
