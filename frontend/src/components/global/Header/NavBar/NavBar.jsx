@@ -8,10 +8,12 @@ import icon5 from "../../../../assets/Header/work.svg";
 import Button from "./../../Button";
 
 const Container = styled.nav`
+	width: 85%;
+	
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	width: 80%;
+	gap:25px;
 
 	margin: 0 20px 0 0;
 	cursor: pointer;

@@ -3,11 +3,11 @@ import PropTypes from "prop-types";
 
 const Container = styled.div`
 	display: flex;
-	align-items: center;
+	align-items:center;
 `;
 
 const Icon = styled.img`
-	max-height: 2rem;
+	max-height: 1.8rem;
 `;
 
 const Text = styled.span`

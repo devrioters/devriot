@@ -11,6 +11,13 @@ const StyledButton = styled.button`
 		font: var(--font-button-header);
 		background-color: var(--button-header-color);
 	}
+
+	&.banner {
+		margin:10px 0;
+		padding: var(--button-banner-pdg);
+		font: var(--font-button-header);
+		background-color: var(--button-banner-color);
+	}
 `;
 
 export default function Button(props) {

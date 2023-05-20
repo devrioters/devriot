@@ -6,19 +6,19 @@ export const GlobalStyles = createGlobalStyle`
         --color-green: #0C813B;
         --color-lilac: #848ff2;
         --color-gray: #383d46;
-        --color-blue-1: #1f1f2f;
+        --color-blue-1: #1A1A2C;
         --color-blue-2: #242744;
 
         //* Gradients
-        --gradient-dark: linear-gradient(180deg, #212131 0%, #18182A 100%);
+        --gradient-dark: rgba(24, 24, 42, 1);
         --gradient-green: linear-gradient(248.85deg, #06352C -1.77%, #10252D 104.39%);
 
         //* Tipography
-        --font-header: 400 1.8rem/2.2rem Louis George Cafe, sans-serif;
+        --font-header: 400 1.6rem/2.2rem Louis George Cafe, sans-serif;
         --font-button-1: 700 2.2rem/2.8rem Montserrat, sans-serif;
         --font-button-header: 700 1.6rem Montserrat, sans-serif;
-        --font-title: 600 5.4rem/6.6rem Montserrat, sans-serif;
-        --font-subtitle: 500 3rem/3.6rem Cabin, sans-serif;
+        --font-title: 520 5rem/6rem Montserrat, sans-serif;
+        --font-subtitle: 400 2.2rem/3rem Cabin, sans-serif;
         --font-card-title: 600 2.7rem/3.3rem Montserrat, sans-serif;
         --font-card-subtitle: 700 1.6rem/2rem Cabin, sans-serif;
         --font-card-button: 400 1.8rem/2.2rem Montserrat, sans-serif;
@@ -30,7 +30,7 @@ export const GlobalStyles = createGlobalStyle`
         //* Buttons
         --button-header-pdg: .9rem 4.5rem;
         --button-header-color: var(--color-green);
-        --button-banner-pdg: 16px 0;
+        --button-banner-pdg: 16px 60px;
         --button-banner-color: var(--color-green);
         --button-card-pdg: 14px 0;
         --button-card-color: var(--color-green);
@@ -40,6 +40,9 @@ export const GlobalStyles = createGlobalStyle`
     }
 
     html, body {
+        width:100%;
+        height: 100%;
+
         margin: 0;
         box-sizing: border-box;
         font-size: 62.5%;

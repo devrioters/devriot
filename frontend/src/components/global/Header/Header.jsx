@@ -4,7 +4,9 @@ import logo from "../../../assets/logo.png";
 
 const Container = styled.header`
 	background-color: var(--color-blue-1);
-	padding: 2.25rem 0;
+	padding: 2.25rem 5rem;
+	
+	border-bottom:0.15rem solid rgba(87, 87, 87, 0.10);
 `;
 
 const Wrapper = styled.div`
