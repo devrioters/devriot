@@ -4,6 +4,15 @@ import PropTypes from "prop-types";
 const Container = styled.div`
 	display: flex;
 	align-items:center;
+	padding: .3rem;
+
+	will-change: background-color;
+	transition:all .4s;
+	border-radius:5px;
+	
+	:hover{
+		background-color:#ffffff2c;
+	}
 `;
 
 const Icon = styled.img`

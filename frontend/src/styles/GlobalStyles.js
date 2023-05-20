@@ -1,4 +1,6 @@
 import { createGlobalStyle } from "styled-components";
+import 'typeface-cabin';
+import 'typeface-montserrat';
 
 export const GlobalStyles = createGlobalStyle`
     :root {
@@ -8,6 +10,7 @@ export const GlobalStyles = createGlobalStyle`
         --color-gray: #383d46;
         --color-blue-1: #1A1A2C;
         --color-blue-2: #242744;
+        --color-white:#FFF;
 
         //* Gradients
         --gradient-dark: rgba(24, 24, 42, 1);
@@ -19,9 +22,9 @@ export const GlobalStyles = createGlobalStyle`
         --font-button-header: 700 1.6rem Montserrat, sans-serif;
         --font-title: 520 5rem/6rem Montserrat, sans-serif;
         --font-subtitle: 400 2.2rem/3rem Cabin, sans-serif;
-        --font-card-title: 600 2.7rem/3.3rem Montserrat, sans-serif;
-        --font-card-subtitle: 700 1.6rem/2rem Cabin, sans-serif;
-        --font-card-button: 400 1.8rem/2.2rem Montserrat, sans-serif;
+        --font-card-title: 600 2.4rem/3.3rem Montserrat, sans-serif;
+        --font-card-subtitle: 600 1.5rem/2rem Cabin, sans-serif;
+        --font-card-button: 550 1.6rem/2.1rem Montserrat, sans-serif;
         --font-username: 700 2.2rem/auto VALORANT, sans-serif;
         --font-lat-menu: 400 2rem/auto Louis George Cafe, sans-serif;
         --font-category-title: 700 5.8rem/auto VALORANT, sans-serif;
@@ -32,7 +35,7 @@ export const GlobalStyles = createGlobalStyle`
         --button-header-color: var(--color-green);
         --button-banner-pdg: 16px 60px;
         --button-banner-color: var(--color-green);
-        --button-card-pdg: 14px 0;
+        --button-card-pdg: 1rem 5rem;
         --button-card-color: var(--color-green);
         --button-leave-pdg: 6px 0;
         --button-leave-color: transparent;
@@ -47,6 +50,8 @@ export const GlobalStyles = createGlobalStyle`
         box-sizing: border-box;
         font-size: 62.5%;
         padding: 0;
+
+        scroll-behavior: smooth;
     }
 
     img {
@@ -57,5 +62,12 @@ export const GlobalStyles = createGlobalStyle`
     div.wrapper {
         max-width: 1240px;
         margin: 0 auto;
+    }
+
+    *{
+        padding:0;
+        margin:0;
+        border:none;
+        outline: 0;
     }
 ;`;

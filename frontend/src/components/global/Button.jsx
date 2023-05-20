@@ -13,10 +13,16 @@ const StyledButton = styled.button`
 	}
 
 	&.banner {
-		margin:10px 0;
+		margin:20px 0;
 		padding: var(--button-banner-pdg);
 		font: var(--font-button-header);
 		background-color: var(--button-banner-color);
+	}
+
+	&.card{
+		padding: var(--button-card-pdg);
+		font: var(--font-card-button);
+		background-color: var(--button-card-color);
 	}
 `;
 

@@ -13,7 +13,9 @@
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "styled-components": "^5.3.10"
+    "styled-components": "^5.3.10",
+    "typeface-cabin": "^1.1.13",
+    "typeface-montserrat": "^1.1.13"
   },
   "devDependencies": {
     "@types/react": "^18.0.28",

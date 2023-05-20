@@ -6,7 +6,7 @@ import Icon from "../../../assets/Home/homeIcon.png";
 const Main = styled.main`
     background-color: var(--gradient-dark);
     width: 100%;
-    height:60vh;
+    height:70vh;
     padding: 8rem 0;
 
     display:flex;
@@ -21,6 +21,7 @@ const Content = styled.article`
     display:flex;
     flex-direction:column;
     align-items: center;
+    gap:20px;
     
     .home-title{
         margin:0;
@@ -62,7 +63,7 @@ export default function Home(){
                 </p>
 
                 <Button className="banner" onClick={buttonAction}>
-                    Começe agora
+                    Comece agora
                 </Button>
             </Content>
 
