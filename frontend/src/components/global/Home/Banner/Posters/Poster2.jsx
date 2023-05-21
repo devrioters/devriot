@@ -14,7 +14,8 @@ const Container = styled.article`
     max-height: 400px;
     padding:7rem;
 
-    margin:8rem 0 8rem 0;
+    margin:9rem 0 8rem 0;
+    
     display:flex;
     flex-direction: column;
     gap:30px;
@@ -43,7 +44,7 @@ const Img = styled.img`
 
     position: absolute;
     right:-50px;
-    top:-50px;
+    top:-30px;
 `;
 
 const ImgIcons = styled.img`
