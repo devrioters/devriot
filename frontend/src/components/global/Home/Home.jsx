@@ -2,11 +2,12 @@ import React from "react";
 import styled from "styled-components";
 import Button from "../Button";
 import Icon from "../../../assets/Home/homeIcon.png";
+import Banner from "./Banner/Banner";
 
-const Main = styled.main`
+const Container = styled.section`
     background-color: var(--gradient-dark);
     width: 100%;
-    height:70vh;
+    height:auto;
     padding: 8rem 0;
 
     display:flex;
@@ -15,9 +16,9 @@ const Main = styled.main`
 `;
 
 const Content = styled.article`
-    width: 70%;
-    height:auto;
-    
+    width: 60%;
+    height:80vh;
+
     display:flex;
     flex-direction:column;
     align-items: center;
@@ -29,7 +30,8 @@ const Content = styled.article`
         font:var(--font-title);
 
         img{
-            padding:0 1.2rem;
+            object-fit: fill;
+            padding:0 1.9rem;
         }
     }
 
@@ -50,12 +52,12 @@ const buttonAction = () => {};
 export default function Home(){
 
     return(
-        <Main>
+        <Container>
 
             <Content>
                 <h1 className="home-title">
                     {homePageContent.title}
-                    <img src={Icon}></img>
+                    <img src={Icon} width={32}></img>
                 </h1>
 
                 <p className="home-subtitle">
@@ -67,7 +69,9 @@ export default function Home(){
                 </Button>
             </Content>
 
-        </Main>
+            <Banner />
+
+        </Container>
     );
 };
 

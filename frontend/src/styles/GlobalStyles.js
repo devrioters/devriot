@@ -20,7 +20,7 @@ export const GlobalStyles = createGlobalStyle`
         --font-header: 400 1.6rem/2.2rem Louis George Cafe, sans-serif;
         --font-button-1: 700 2.2rem/2.8rem Montserrat, sans-serif;
         --font-button-header: 700 1.6rem Montserrat, sans-serif;
-        --font-title: 520 5rem/6rem Montserrat, sans-serif;
+        --font-title: 520 4.5rem/6rem Montserrat, sans-serif;
         --font-subtitle: 400 2.2rem/3rem Cabin, sans-serif;
         --font-card-title: 600 2.4rem/3.3rem Montserrat, sans-serif;
         --font-card-subtitle: 600 1.5rem/2rem Cabin, sans-serif;
@@ -33,7 +33,7 @@ export const GlobalStyles = createGlobalStyle`
         //* Buttons
         --button-header-pdg: .9rem 4.5rem;
         --button-header-color: var(--color-green);
-        --button-banner-pdg: 16px 60px;
+        --button-banner-pdg: 1rem 6.5rem;
         --button-banner-color: var(--color-green);
         --button-card-pdg: 1rem 5rem;
         --button-card-color: var(--color-green);

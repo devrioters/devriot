@@ -1,10 +1,10 @@
 import React from "react";
 import styled from "styled-components";
-import ImgDev from "../../../../assets/Banner/img_dev.png";
+import ImgDev from "../../../../../assets/Banner/img_dev.png";
 
 const Container = styled.article`
-    width: 70%;
-    height: 300px;
+    width: 60%;
+    height: 200px;
     max-width:1080px;
     max-height: 400px;
     padding:5rem;
@@ -41,7 +41,7 @@ const Img = styled.img`
     top:-50px;
 `;
 
-const Poster = () =>{
+export default function Poster(){
     return(
         <Container>
             <PostTitle>
@@ -61,4 +61,3 @@ const Poster = () =>{
     );
 };
 
-export default Poster;

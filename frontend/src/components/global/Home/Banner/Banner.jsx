@@ -1,11 +1,12 @@
 import React from "react";
 import styled from "styled-components";
 import CardItem from "./Card/CardElement";
-import Poster from "./Poster/Poster";
+import Poster from "./Posters/Poster";
+import Poster2 from "./Posters/Poster2.jsx";
 
 const Container = styled.section`
     width:100%;
-    height: 100vh;
+    height: auto;
     position: relative;
 
     display: flex;
@@ -36,6 +37,7 @@ export default function Banner(){
             </CardZone>
 
             <Poster/>
+            <Poster2/>
         </Container>
     );
 };

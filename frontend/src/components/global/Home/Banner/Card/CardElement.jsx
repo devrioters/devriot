@@ -1,9 +1,9 @@
 import React from "react";
 import styled from "styled-components";
-import Button from "../../Button";
-import Like from "../../../../assets/Banner/like.png";
-import Work from "../../../../assets/Banner/work.png";
-import Ranking from "../../../../assets/Banner/ranking.png";
+import Button from "../../../Button";
+import Like from "../../../../../assets/Banner/like.png";
+import Work from "../../../../../assets/Banner/work.png";
+import Ranking from "../../../../../assets/Banner/ranking.png";
 
 const Card = styled.article`
     width:300px;
