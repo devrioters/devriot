@@ -55,14 +55,14 @@ const cardsContent = [
     {
         icon: Like,
         title: 'Faça exercícios práticos',
-        content: 'Com nossa plataforma você vai ter acesso a exer-cícios práticos, além de feedbacks de como vocêestá se saindo a cada exercícios.',
+        content: 'Com nossa plataforma você vai ter acesso a exercícios práticos, além de feedbacks de como você está se saindo a cada exercício.',
         footer: 'Evoluir nunca foi tão fácil!',
         buttonContent: 'Comece a codar'
     },
     {
         icon: Ranking,
         title: 'Sistema de ranking',
-        content: 'A medida que você progride, seu ranking no site aumenta! Consequentemente, os exercícios vão ficando mais difíceis.',
+        content: 'A medida que você progride, seu ranking aumenta! Consequentemente, os exercícios vão ficando mais difíceis.',
         footer: 'Dispute nas ligas e eventos para cada ranking',
         buttonContent: 'Upe seu ranking'
     },

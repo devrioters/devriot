@@ -3,12 +3,13 @@ import styled from "styled-components";
 import Button from "../Button";
 import Icon from "../../../assets/Home/homeIcon.png";
 import Banner from "./Banner/Banner";
+import Footer from "./Footer/Footer";
 
 const Container = styled.section`
     background-color: var(--gradient-dark);
     width: 100%;
     height:auto;
-    padding: 8rem 0;
+    padding: 8rem 0 0 0;
 
     display:flex;
     flex-direction:column;
@@ -71,6 +72,7 @@ export default function Home(){
 
             <Banner />
 
+            <Footer/>
         </Container>
     );
 };

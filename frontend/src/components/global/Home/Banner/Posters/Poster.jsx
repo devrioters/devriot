@@ -48,8 +48,8 @@ export default function Poster(){
                 Saia na frente
             </PostTitle>
             <PostContent>
-                Aproveite a aba “Paritcipe” para fazer parte de 
-                bootcamps, cursos e mentorias onlines totalemntes 
+                Aproveite a aba “Participe” para fazer parte de 
+                bootcamps, cursos e mentorias onlines totalmentes 
                 gratuitas.
                 Fique por dentro da maioria dos cursos que estão 
                 acontecendo nesse exato momento 
